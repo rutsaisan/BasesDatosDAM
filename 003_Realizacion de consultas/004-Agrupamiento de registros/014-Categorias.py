@@ -1,0 +1,30 @@
+import mysql.connector 
+import mathplotlib.pyplot as pt
+
+conexion = mysql.connector.connect(
+  host="localhost",
+  user="clientes",
+  password="Clientes123$",
+  database="clientes"
+)                                      
+  
+cursor = conexion.cursor() 
+cursor.execute('''
+SELECT 
+COUNT(categoria) AS numero,
+categorias
+FROM productos
+GROUP BY categoria
+ORDER BY nuemro DESC;
+''')  
+
+filas = cursor.fetchall()
+cantidades = []
+etiquetas = []
+for fila in filas:
+    cantidades.append(fila[0])
+    etiquetas.append(fila[1])
+print(cantidades)
+print(etiquetas)
+pt.pie(cantidades,labels = etiquetas)
+pt.show()

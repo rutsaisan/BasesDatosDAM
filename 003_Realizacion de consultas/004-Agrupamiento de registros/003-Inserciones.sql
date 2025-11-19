@@ -1,0 +1,35 @@
+CREATE TABLE productos(
+    nombre VARCHAR(255),
+    precio DECIMAL(10,2),
+    categoria VARCHAR(255),
+    peso DECIMAL(10,2),
+    stock INT,
+    color VARCHAR(100)
+);
+-- Inserto con IA 
+INSERT INTO productos (nombre, precio, categoria, peso, stock, color) VALUES
+('Manzana Roja', 0.50, 'Fruta', 0.15, 100, 'Rojo'),
+('Manzana Verde', 0.55, 'Fruta', 0.14, 100, 'Verde'),
+('Banana', 0.30, 'Fruta', 0.20, 150, 'Amarillo'),
+('Pera', 0.60, 'Fruta', 0.18, 100, 'Verde'),
+('Lechuga', 0.80, 'Verdura', 0.25, 80, 'Verde'),
+('Tomate', 0.70, 'Verdura', 0.22, 80, 'Rojo'),
+('Zanahoria', 0.40, 'Verdura', 0.18, 80, 'Naranja'),
+('Cebolla', 0.35, 'Verdura', 0.20, 80, 'Blanco'),
+('Pan Integral', 1.20, 'Panadería', 0.50, 60, 'Marrón'),
+('Pan Blanco', 1.10, 'Panadería', 0.45, 60, 'Blanco'),
+('Croissant', 1.50, 'Panadería', 0.40, 60, 'Dorado'),
+('Leche Entera', 0.95, 'Lácteos', 1.00, 200, 'Blanco'),
+('Leche Desnatada', 0.90, 'Lácteos', 1.00, 200, 'Blanco'),
+('Yogur Natural', 0.60, 'Lácteos', 0.12, 200, 'Blanco'),
+('Yogur Fresa', 0.65, 'Lácteos', 0.12, 200, 'Rosa'),
+('Queso Curado', 2.50, 'Lácteos', 0.30, 200, 'Amarillo'),
+('Coca-Cola', 1.00, 'Bebidas', 0.33, 300, 'Negro'),
+('Fanta Naranja', 1.00, 'Bebidas', 0.33, 300, 'Naranja'),
+('Agua Mineral', 0.60, 'Bebidas', 0.50, 300, 'Transparente'),
+('Cerveza Rubia', 1.20, 'Bebidas', 0.33, 300, 'Dorado'),
+('Cerveza Negra', 1.30, 'Bebidas', 0.33, 300, 'Negro'),
+('Detergente', 3.50, 'Limpieza', 1.20, 50, 'Azul'),
+('Suavizante', 2.80, 'Limpieza', 1.00, 50, 'Rosa'),
+('Jabón Líquido', 2.00, 'Limpieza', 0.80, 50, 'Blanco'),
+('Escoba', 4.00, 'Limpieza', 1.50, 50, 'Rojo');

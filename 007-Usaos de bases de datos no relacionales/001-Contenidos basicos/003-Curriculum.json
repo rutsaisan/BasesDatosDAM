@@ -1,0 +1,83 @@
+{
+  "curriculum": {
+    "datos_personales": {
+      "nombre": "Ruth Sainz",
+      "titulo_profesional": "Desarrolladora de Aplicaciones Multiplataforma",
+      "foto": "Ruth_800.jpg",
+      "perfil": "Persona proactiva, con ganas de aprender y crecer profesionalmente."
+    },
+    "contacto": {
+      "telefono": "634480989",
+      "email": "ruthsaisan@gmail.com",
+      "enlace": {
+        "tipo": "LinkedIn",
+        "valor": "https://www.linkedin.com/in/rutsaisan"
+      },
+      "ubicacion": "España"
+    },
+    "habilidades": {
+      "skill": [
+        "Java",
+        "Python",
+        "SQL",
+        "HTML",
+        "CSS"
+      ]
+    },
+    "idiomas": {
+      "idioma": [
+        {
+          "nombre": "Español",
+          "nivel": "Nativo"
+        },
+        {
+          "nombre": "Inglés",
+          "nivel": "B1"
+        }
+      ]
+    },
+    "experiencia_profesional": {
+      "puesto1": [
+        {
+          "titulo": "Guía de proyectos y grupos",
+          "periodo": "2017 - Presente",
+          "entidad": "Grupo Scout Impeesa XV",
+          "descripcion": "Desde los 11 años he participado activamente, progresando hasta el puesto de guía. Lideré mi patrulla encargándome de la seguridad y bienestar del equipo. Actualmente, como Rover, realizo servicio comunitario, colaboro en la organización logística de eventos y gestiono iniciativas ciudadanas."
+        }
+      ],
+      "puesto2": [
+        {
+          "titulo": "Atención al cliente",
+          "periodo": "Veranos",
+          "entidad": "MARISOL LENCERIA Y MODA INFANTIL",
+          "descripcion": "Gestión de inventario y atención directa al cliente en tienda de moda."
+        }
+      ],
+      "puesto3": [
+        {
+          "titulo": "Coordinación de eventos",
+          "periodo": "2017 - Presente",
+          "entidad": "Grupo Scout Impeesa XV",
+          "descripcion": "Responsable principal de logística, planificación de horarios y coordinación de recursos materiales para actividades grupales."
+        }
+      ]
+      
+    },
+    "formacion_academica": {
+      "estudio1": [
+        {
+          "titulo": "Grado Superior en DAM",
+          "periodo": "2024 - 2026",
+          "centro": "CEAC FP"
+        }
+      ],
+      "estudio2": [
+        {
+          "titulo": "Bachillerato Científico-Tecnológico",
+          "periodo": "2024 - 2025",
+          "centro": "IES Molí del Sol, Mislata"
+        }
+      ]
+    }
+  }
+}
